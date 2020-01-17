@@ -69,27 +69,72 @@ https://codepen.io/palancall/pen/dyPqKNr
         when an element is embedded inside of anoter element for example:  ul > li {}
         
     23. How do you select all links within a div with the class of sidebar?
-            
+        div.sidebar a{}    
 
     24. What is a pseudo selector?
+
+
     25. What do we use the change the spacing between lines?
+        line-height:
+
     26. What do we use to change the spacing between letters?
+        letter-spacing
+
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        text-transform
+
     28. How do I add a 1px border around my div that is dotted and black?
+        div {border:1px dotted black;}
+
     29. How do I select everything on the page? 
+        * {}
+
     30. How do I write a comment in CSS?
+        /*  */
+
+
     31. How do I find out what file I am in, when I am using the command line? 
+        pwd
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
-    33. How do I remove a file via the command line? Why do I have to be careful with this? 
-    34. Why should I use version control? 
+        ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+        we delete files using the command rm. it is a permanent delete. Files cannot be recovered.
+
+    34. Why should I use version control?
+        to keep track of all the changes made to a project.
+
     35. How often should I commit to github?
+        Every time a change is made.
+
     36. What is the command we would use to push our repo up to github? 
+        git push origin "branch name"
+
     37. Walk me through Lambda's git flow. 
+        1-fork the repo
+        2- add collaborators
+        3- clone the repo
+        4-create branch
+        5- add/commit/push
+        6- add reviewer
+        7- pull request
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+        block elements force a new line and inline elements don't. We can't put a block element inside of an inline element, but inline elements can go inside of block elements.
+        
     2. What happens when an element is positioned absolutely? 
+        it's position is fixed.
+
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        by putting it in a div.
+
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        Display block: <p> , <li> , <article>
+        Display inline: <a> , <input>
+        Display inline-block: <button>
+
     5. In your own words, explain the box model. What is the fix for the box model? 
+        It is a box that wraps around every html element. We use the element and it's marigins, padding and border in order to position the element. Every element in CSS is a box.
